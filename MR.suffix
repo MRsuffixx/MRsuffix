@@ -1,0 +1,1163 @@
+<html lang="tr"><head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>MRsuffix - Ana Sayfa</title>
+	
+	        <script type="text/javascript" async="" src="https://www.gstatic.com/recaptcha/releases/6pQzWaE1NP-gB4FrqRViKjM-/recaptcha__tr.js" crossorigin="anonymous" integrity="sha384-IexaehjC8bLVFxN7REhdCqf7X5NmCwDtapATztN9pO2SPBLV4lNTbGvzpk+81PTN"></script><script type="text/javascript" async="" src="https://www.gstatic.com/recaptcha/releases/6pQzWaE1NP-gB4FrqRViKjM-/recaptcha__tr.js" crossorigin="anonymous" integrity="sha384-IexaehjC8bLVFxN7REhdCqf7X5NmCwDtapATztN9pO2SPBLV4lNTbGvzpk+81PTN"></script><script type="text/javascript">
+        var dateTimeOffset = new Date().getTimezoneOffset();
+        
+        function getElementsByClassNameLocalTimeWrapper() {
+            return document.getElementsByClassName("localtime");
+        }
+        
+        (function () {
+            var onload = function () {
+                var elementArray = new Array();
+                
+                if (document.getElementsByClassName) {
+                    elementArray = getElementsByClassNameLocalTimeWrapper();
+                } else {
+                    var re = new RegExp('(^| )localtime( |$)');
+                    var els = document.getElementsByTagName("*");
+                    for (var i=0,j=els.length; i<j; i++) {
+                        if (re.test(els[i].className))
+                            elementArray.push(els[i]);
+                    }
+                }
+                
+                for (var i = 0; i < elementArray.length; i++) {    
+                    var timeLocal = new Date(parseInt(elementArray[i].getAttribute("data-timestamp")));
+                    var hour = timeLocal.getHours();
+                    var ap = "am";
+                    if (hour > 11) {
+                        ap = "pm";
+                    }
+                    else if (hour > 12) {
+                        hour = hour - 12;
+                    }
+                    
+                    var string = elementArray[i].getAttribute("data-template");
+                    string = string.replace("[Y]", timeLocal.getFullYear());
+                    string = string.replace("[m]", ('0' + (timeLocal.getMonth() + 1)).slice(-2));
+                    string = string.replace("[d]", ('0' + timeLocal.getDate()).slice(-2));
+                    string = string.replace("[H]", ('0' + timeLocal.getHours()).slice(-2));
+                    string = string.replace("[g]", ('0' + hour).slice(-2));
+                    string = string.replace("[i]", ('0' + timeLocal.getMinutes()).slice(-2));
+                    string = string.replace("[s]", ('0' + timeLocal.getSeconds()).slice(-2));
+                    string = string.replace("[a]", ap);
+                    elementArray[i].childNodes[0].nodeValue = string;
+                }
+            };
+            
+            if (window.addEventListener)
+                window.addEventListener("DOMContentLoaded", onload);
+            else if (window.attachEvent)
+                window.attachEvent("onload", onload);
+        })();
+        </script><script src="https://wtheme.webme.com/js/jquery-1.11.3.min.js"></script>
+<link href="https://netdna.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.css" rel="stylesheet">
+<script type="text/javascript" src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+
+<script language="JavaScript" src="https://wtheme.webme.com/designs/globals/snow2.js"></script>
+<link rel="icon" href="https://wtheme.webme.com/img/main/favicon.ico" type="image/x-icon">
+<link rel="shortcut icon" type="image/x-icon" href="https://wtheme.webme.com/img/main/favicon.ico">
+<link type="image/x-icon" href="https://wtheme.webme.com/img/main/favicon.ico">
+<link href="https://wtheme.webme.com/img/main/ios_icons/apple-touch-icon.png" rel="apple-touch-icon">
+<link href="https://wtheme.webme.com/img/main/ios_icons/apple-touch-icon-76x76.png" rel="apple-touch-icon" sizes="76x76">
+<link href="https://wtheme.webme.com/img/main/ios_icons/apple-touch-icon-120x120.png" rel="apple-touch-icon" sizes="120x120">
+<link href="https://wtheme.webme.com/img/main/ios_icons/apple-touch-icon-152x152.png" rel="apple-touch-icon" sizes="152x152">
+<!-- Remove the noindex-tag by booking any premium package on https://www.bedava-sitem.com/Premium/PackageSelection/. Only premium websites can be indexed by Google and other search engines -->
+<meta name="robots" content="noindex">
+<meta property="og:title" content="MRsuffix - Ana Sayfa">
+<meta property="og:image" content="https://theme.webme.com/designs/semantic/screen.jpg">
+
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>MRsuffix - Ana Sayfa</title>
+	
+	        <script src="https://connect.facebook.net/en_US/sdk.js?hash=794702d4f22dde62574555ca991c0113" async="" crossorigin="anonymous"></script><script type="text/javascript" async="" src="https://www.gstatic.com/recaptcha/releases/6pQzWaE1NP-gB4FrqRViKjM-/recaptcha__tr.js" crossorigin="anonymous" integrity="sha384-IexaehjC8bLVFxN7REhdCqf7X5NmCwDtapATztN9pO2SPBLV4lNTbGvzpk+81PTN"></script><script type="text/javascript">
+        var dateTimeOffset = new Date().getTimezoneOffset();
+        
+        function getElementsByClassNameLocalTimeWrapper() {
+            return document.getElementsByClassName("localtime");
+        }
+        
+        (function () {
+            var onload = function () {
+                var elementArray = new Array();
+                
+                if (document.getElementsByClassName) {
+                    elementArray = getElementsByClassNameLocalTimeWrapper();
+                } else {
+                    var re = new RegExp('(^| )localtime( |$)');
+                    var els = document.getElementsByTagName("*");
+                    for (var i=0,j=els.length; i<j; i++) {
+                        if (re.test(els[i].className))
+                            elementArray.push(els[i]);
+                    }
+                }
+                
+                for (var i = 0; i < elementArray.length; i++) {    
+                    var timeLocal = new Date(parseInt(elementArray[i].getAttribute("data-timestamp")));
+                    var hour = timeLocal.getHours();
+                    var ap = "am";
+                    if (hour > 11) {
+                        ap = "pm";
+                    }
+                    else if (hour > 12) {
+                        hour = hour - 12;
+                    }
+                    
+                    var string = elementArray[i].getAttribute("data-template");
+                    string = string.replace("[Y]", timeLocal.getFullYear());
+                    string = string.replace("[m]", ('0' + (timeLocal.getMonth() + 1)).slice(-2));
+                    string = string.replace("[d]", ('0' + timeLocal.getDate()).slice(-2));
+                    string = string.replace("[H]", ('0' + timeLocal.getHours()).slice(-2));
+                    string = string.replace("[g]", ('0' + hour).slice(-2));
+                    string = string.replace("[i]", ('0' + timeLocal.getMinutes()).slice(-2));
+                    string = string.replace("[s]", ('0' + timeLocal.getSeconds()).slice(-2));
+                    string = string.replace("[a]", ap);
+                    elementArray[i].childNodes[0].nodeValue = string;
+                }
+            };
+            
+            if (window.addEventListener)
+                window.addEventListener("DOMContentLoaded", onload);
+            else if (window.attachEvent)
+                window.attachEvent("onload", onload);
+        })();
+        </script><script src="https://wtheme.webme.com/js/jquery-1.11.3.min.js"></script>
+<link href="https://netdna.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.css" rel="stylesheet">
+<script type="text/javascript" src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+
+<script language="JavaScript" src="https://wtheme.webme.com/designs/globals/snow2.js"></script>
+<link rel="icon" href="https://wtheme.webme.com/img/main/favicon.ico" type="image/x-icon">
+<link rel="shortcut icon" type="image/x-icon" href="https://wtheme.webme.com/img/main/favicon.ico">
+<link type="image/x-icon" href="https://wtheme.webme.com/img/main/favicon.ico">
+<link href="https://wtheme.webme.com/img/main/ios_icons/apple-touch-icon.png" rel="apple-touch-icon">
+<link href="https://wtheme.webme.com/img/main/ios_icons/apple-touch-icon-76x76.png" rel="apple-touch-icon" sizes="76x76">
+<link href="https://wtheme.webme.com/img/main/ios_icons/apple-touch-icon-120x120.png" rel="apple-touch-icon" sizes="120x120">
+<link href="https://wtheme.webme.com/img/main/ios_icons/apple-touch-icon-152x152.png" rel="apple-touch-icon" sizes="152x152">
+<!-- Remove the noindex-tag by booking any premium package on https://www.bedava-sitem.com/Premium/PackageSelection/. Only premium websites can be indexed by Google and other search engines -->
+<meta name="robots" content="noindex">
+<meta property="og:title" content="MRsuffix - Ana Sayfa">
+<meta property="og:image" content="https://theme.webme.com/designs/semantic/screen.jpg">
+
+
+
+  <title>A Meaningful Page Title</title>
+<style type="text/css" data-fbcssmodules="css:fb.css.base css:fb.css.dialog css:fb.css.iframewidget css:fb.css.customer_chat_plugin_iframe">.fb_hidden{position:absolute;top:-10000px;z-index:10001}.fb_reposition{overflow:hidden;position:relative}.fb_invisible{display:none}.fb_reset{background:none;border:0;border-spacing:0;color:#000;cursor:auto;direction:ltr;font-family:"lucida grande", tahoma, verdana, arial, sans-serif;font-size:11px;font-style:normal;font-variant:normal;font-weight:normal;letter-spacing:normal;line-height:1;margin:0;overflow:visible;padding:0;text-align:left;text-decoration:none;text-indent:0;text-shadow:none;text-transform:none;visibility:visible;white-space:normal;word-spacing:normal}.fb_reset>div{overflow:hidden}@keyframes fb_transform{from{opacity:0;transform:scale(.95)}to{opacity:1;transform:scale(1)}}.fb_animate{animation:fb_transform .3s forwards}
+.fb_dialog{background:rgba(82, 82, 82, .7);position:absolute;top:-10000px;z-index:10001}.fb_dialog_advanced{border-radius:8px;padding:10px}.fb_dialog_content{background:#fff;color:#373737}.fb_dialog_close_icon{background:url(https://static.xx.fbcdn.net/rsrc.php/v3/yq/r/IE9JII6Z1Ys.png) no-repeat scroll 0 0 transparent;cursor:pointer;display:block;height:15px;position:absolute;right:18px;top:17px;width:15px}.fb_dialog_mobile .fb_dialog_close_icon{left:5px;right:auto;top:5px}.fb_dialog_padding{background-color:transparent;position:absolute;width:1px;z-index:-1}.fb_dialog_close_icon:hover{background:url(https://static.xx.fbcdn.net/rsrc.php/v3/yq/r/IE9JII6Z1Ys.png) no-repeat scroll 0 -15px transparent}.fb_dialog_close_icon:active{background:url(https://static.xx.fbcdn.net/rsrc.php/v3/yq/r/IE9JII6Z1Ys.png) no-repeat scroll 0 -30px transparent}.fb_dialog_iframe{line-height:0}.fb_dialog_content .dialog_title{background:#6d84b4;border:1px solid #365899;color:#fff;font-size:14px;font-weight:bold;margin:0}.fb_dialog_content .dialog_title>span{background:url(https://static.xx.fbcdn.net/rsrc.php/v3/yd/r/Cou7n-nqK52.gif) no-repeat 5px 50%;float:left;padding:5px 0 7px 26px}body.fb_hidden{height:100%;left:0;margin:0;overflow:visible;position:absolute;top:-10000px;transform:none;width:100%}.fb_dialog.fb_dialog_mobile.loading{background:url(https://static.xx.fbcdn.net/rsrc.php/v3/ya/r/3rhSv5V8j3o.gif) white no-repeat 50% 50%;min-height:100%;min-width:100%;overflow:hidden;position:absolute;top:0;z-index:10001}.fb_dialog.fb_dialog_mobile.loading.centered{background:none;height:auto;min-height:initial;min-width:initial;width:auto}.fb_dialog.fb_dialog_mobile.loading.centered #fb_dialog_loader_spinner{width:100%}.fb_dialog.fb_dialog_mobile.loading.centered .fb_dialog_content{background:none}.loading.centered #fb_dialog_loader_close{clear:both;color:#fff;display:block;font-size:18px;padding-top:20px}#fb-root #fb_dialog_ipad_overlay{background:rgba(0, 0, 0, .4);bottom:0;left:0;min-height:100%;position:absolute;right:0;top:0;width:100%;z-index:10000}#fb-root #fb_dialog_ipad_overlay.hidden{display:none}.fb_dialog.fb_dialog_mobile.loading iframe{visibility:hidden}.fb_dialog_mobile .fb_dialog_iframe{position:sticky;top:0}.fb_dialog_content .dialog_header{background:linear-gradient(from(#738aba), to(#2c4987));border-bottom:1px solid;border-color:#043b87;box-shadow:white 0 1px 1px -1px inset;color:#fff;font:bold 14px Helvetica, sans-serif;text-overflow:ellipsis;text-shadow:rgba(0, 30, 84, .296875) 0 -1px 0;vertical-align:middle;white-space:nowrap}.fb_dialog_content .dialog_header table{height:43px;width:100%}.fb_dialog_content .dialog_header td.header_left{font-size:12px;padding-left:5px;vertical-align:middle;width:60px}.fb_dialog_content .dialog_header td.header_right{font-size:12px;padding-right:5px;vertical-align:middle;width:60px}.fb_dialog_content .touchable_button{background:linear-gradient(from(#4267B2), to(#2a4887));background-clip:padding-box;border:1px solid #29487d;border-radius:3px;display:inline-block;line-height:18px;margin-top:3px;max-width:85px;padding:4px 12px;position:relative}.fb_dialog_content .dialog_header .touchable_button input{background:none;border:none;color:#fff;font:bold 12px Helvetica, sans-serif;margin:2px -12px;padding:2px 6px 3px 6px;text-shadow:rgba(0, 30, 84, .296875) 0 -1px 0}.fb_dialog_content .dialog_header .header_center{color:#fff;font-size:16px;font-weight:bold;line-height:18px;text-align:center;vertical-align:middle}.fb_dialog_content .dialog_content{background:url(https://static.xx.fbcdn.net/rsrc.php/v3/y9/r/jKEcVPZFk-2.gif) no-repeat 50% 50%;border:1px solid #4a4a4a;border-bottom:0;border-top:0;height:150px}.fb_dialog_content .dialog_footer{background:#f5f6f7;border:1px solid #4a4a4a;border-top-color:#ccc;height:40px}#fb_dialog_loader_close{float:left}.fb_dialog.fb_dialog_mobile .fb_dialog_close_icon{visibility:hidden}#fb_dialog_loader_spinner{animation:rotateSpinner 1.2s linear infinite;background-color:transparent;background-image:url(https://static.xx.fbcdn.net/rsrc.php/v3/yD/r/t-wz8gw1xG1.png);background-position:50% 50%;background-repeat:no-repeat;height:24px;width:24px}@keyframes rotateSpinner{0%{transform:rotate(0deg)}100%{transform:rotate(360deg)}}
+.fb_iframe_widget{display:inline-block;position:relative}.fb_iframe_widget span{display:inline-block;position:relative;text-align:justify}.fb_iframe_widget iframe{position:absolute}.fb_iframe_widget_fluid_desktop,.fb_iframe_widget_fluid_desktop span,.fb_iframe_widget_fluid_desktop iframe{max-width:100%}.fb_iframe_widget_fluid_desktop iframe{min-width:220px;position:relative}.fb_iframe_widget_lift{z-index:1}.fb_iframe_widget_fluid{display:inline}.fb_iframe_widget_fluid span{width:100%}
+.fb_mpn_mobile_landing_page_slide_out{animation-duration:200ms;animation-name:fb_mpn_landing_page_slide_out;transition-timing-function:ease-in}.fb_mpn_mobile_landing_page_slide_out_from_left{animation-duration:200ms;animation-name:fb_mpn_landing_page_slide_out_from_left;transition-timing-function:ease-in}.fb_mpn_mobile_landing_page_slide_up{animation-duration:500ms;animation-name:fb_mpn_landing_page_slide_up;transition-timing-function:ease-in}.fb_mpn_mobile_bounce_in{animation-duration:300ms;animation-name:fb_mpn_bounce_in;transition-timing-function:ease-in}.fb_mpn_mobile_bounce_out{animation-duration:300ms;animation-name:fb_mpn_bounce_out;transition-timing-function:ease-in}.fb_mpn_mobile_bounce_out_v2{animation-duration:300ms;animation-name:fb_mpn_fade_out;transition-timing-function:ease-in}.fb_customer_chat_bounce_in_v2{animation-duration:300ms;animation-name:fb_bounce_in_v2;transition-timing-function:ease-in}.fb_customer_chat_bounce_in_from_left{animation-duration:300ms;animation-name:fb_bounce_in_from_left;transition-timing-function:ease-in}.fb_customer_chat_bounce_out_v2{animation-duration:300ms;animation-name:fb_bounce_out_v2;transition-timing-function:ease-in}.fb_customer_chat_bounce_out_from_left{animation-duration:300ms;animation-name:fb_bounce_out_from_left;transition-timing-function:ease-in}.fb_invisible_flow{display:inherit;height:0;overflow-x:hidden;width:0}@keyframes fb_mpn_landing_page_slide_out{0%{margin:0 12px;width:100% - 24px}60%{border-radius:18px}100%{border-radius:50%;margin:0 24px;width:60px}}@keyframes fb_mpn_landing_page_slide_out_from_left{0%{left:12px;width:100% - 24px}60%{border-radius:18px}100%{border-radius:50%;left:12px;width:60px}}@keyframes fb_mpn_landing_page_slide_up{0%{bottom:0;opacity:0}100%{bottom:24px;opacity:1}}@keyframes fb_mpn_bounce_in{0%{opacity:.5;top:100%}100%{opacity:1;top:0}}@keyframes fb_mpn_fade_out{0%{bottom:30px;opacity:1}100%{bottom:0;opacity:0}}@keyframes fb_mpn_bounce_out{0%{opacity:1;top:0}100%{opacity:.5;top:100%}}@keyframes fb_bounce_in_v2{0%{opacity:0;transform:scale(0, 0);transform-origin:bottom right}50%{transform:scale(1.03, 1.03);transform-origin:bottom right}100%{opacity:1;transform:scale(1, 1);transform-origin:bottom right}}@keyframes fb_bounce_in_from_left{0%{opacity:0;transform:scale(0, 0);transform-origin:bottom left}50%{transform:scale(1.03, 1.03);transform-origin:bottom left}100%{opacity:1;transform:scale(1, 1);transform-origin:bottom left}}@keyframes fb_bounce_out_v2{0%{opacity:1;transform:scale(1, 1);transform-origin:bottom right}100%{opacity:0;transform:scale(0, 0);transform-origin:bottom right}}@keyframes fb_bounce_out_from_left{0%{opacity:1;transform:scale(1, 1);transform-origin:bottom left}100%{opacity:0;transform:scale(0, 0);transform-origin:bottom left}}@keyframes slideInFromBottom{0%{opacity:.1;transform:translateY(100%)}100%{opacity:1;transform:translateY(0)}}@keyframes slideInFromBottomDelay{0%{opacity:0;transform:translateY(100%)}97%{opacity:0;transform:translateY(100%)}100%{opacity:1;transform:translateY(0)}}</style><style type="text/css" data-fbcssmodules="css:fb.css.base css:fb.css.dialog css:fb.css.iframewidget css:fb.css.customer_chat_plugin_iframe">.fb_hidden{position:absolute;top:-10000px;z-index:10001}.fb_reposition{overflow:hidden;position:relative}.fb_invisible{display:none}.fb_reset{background:none;border:0;border-spacing:0;color:#000;cursor:auto;direction:ltr;font-family:"lucida grande", tahoma, verdana, arial, sans-serif;font-size:11px;font-style:normal;font-variant:normal;font-weight:normal;letter-spacing:normal;line-height:1;margin:0;overflow:visible;padding:0;text-align:left;text-decoration:none;text-indent:0;text-shadow:none;text-transform:none;visibility:visible;white-space:normal;word-spacing:normal}.fb_reset>div{overflow:hidden}@keyframes fb_transform{from{opacity:0;transform:scale(.95)}to{opacity:1;transform:scale(1)}}.fb_animate{animation:fb_transform .3s forwards}
+.fb_dialog{background:rgba(82, 82, 82, .7);position:absolute;top:-10000px;z-index:10001}.fb_dialog_advanced{border-radius:8px;padding:10px}.fb_dialog_content{background:#fff;color:#373737}.fb_dialog_close_icon{background:url(https://static.xx.fbcdn.net/rsrc.php/v3/yq/r/IE9JII6Z1Ys.png) no-repeat scroll 0 0 transparent;cursor:pointer;display:block;height:15px;position:absolute;right:18px;top:17px;width:15px}.fb_dialog_mobile .fb_dialog_close_icon{left:5px;right:auto;top:5px}.fb_dialog_padding{background-color:transparent;position:absolute;width:1px;z-index:-1}.fb_dialog_close_icon:hover{background:url(https://static.xx.fbcdn.net/rsrc.php/v3/yq/r/IE9JII6Z1Ys.png) no-repeat scroll 0 -15px transparent}.fb_dialog_close_icon:active{background:url(https://static.xx.fbcdn.net/rsrc.php/v3/yq/r/IE9JII6Z1Ys.png) no-repeat scroll 0 -30px transparent}.fb_dialog_iframe{line-height:0}.fb_dialog_content .dialog_title{background:#6d84b4;border:1px solid #365899;color:#fff;font-size:14px;font-weight:bold;margin:0}.fb_dialog_content .dialog_title>span{background:url(https://static.xx.fbcdn.net/rsrc.php/v3/yd/r/Cou7n-nqK52.gif) no-repeat 5px 50%;float:left;padding:5px 0 7px 26px}body.fb_hidden{height:100%;left:0;margin:0;overflow:visible;position:absolute;top:-10000px;transform:none;width:100%}.fb_dialog.fb_dialog_mobile.loading{background:url(https://static.xx.fbcdn.net/rsrc.php/v3/ya/r/3rhSv5V8j3o.gif) white no-repeat 50% 50%;min-height:100%;min-width:100%;overflow:hidden;position:absolute;top:0;z-index:10001}.fb_dialog.fb_dialog_mobile.loading.centered{background:none;height:auto;min-height:initial;min-width:initial;width:auto}.fb_dialog.fb_dialog_mobile.loading.centered #fb_dialog_loader_spinner{width:100%}.fb_dialog.fb_dialog_mobile.loading.centered .fb_dialog_content{background:none}.loading.centered #fb_dialog_loader_close{clear:both;color:#fff;display:block;font-size:18px;padding-top:20px}#fb-root #fb_dialog_ipad_overlay{background:rgba(0, 0, 0, .4);bottom:0;left:0;min-height:100%;position:absolute;right:0;top:0;width:100%;z-index:10000}#fb-root #fb_dialog_ipad_overlay.hidden{display:none}.fb_dialog.fb_dialog_mobile.loading iframe{visibility:hidden}.fb_dialog_mobile .fb_dialog_iframe{position:sticky;top:0}.fb_dialog_content .dialog_header{background:linear-gradient(from(#738aba), to(#2c4987));border-bottom:1px solid;border-color:#043b87;box-shadow:white 0 1px 1px -1px inset;color:#fff;font:bold 14px Helvetica, sans-serif;text-overflow:ellipsis;text-shadow:rgba(0, 30, 84, .296875) 0 -1px 0;vertical-align:middle;white-space:nowrap}.fb_dialog_content .dialog_header table{height:43px;width:100%}.fb_dialog_content .dialog_header td.header_left{font-size:12px;padding-left:5px;vertical-align:middle;width:60px}.fb_dialog_content .dialog_header td.header_right{font-size:12px;padding-right:5px;vertical-align:middle;width:60px}.fb_dialog_content .touchable_button{background:linear-gradient(from(#4267B2), to(#2a4887));background-clip:padding-box;border:1px solid #29487d;border-radius:3px;display:inline-block;line-height:18px;margin-top:3px;max-width:85px;padding:4px 12px;position:relative}.fb_dialog_content .dialog_header .touchable_button input{background:none;border:none;color:#fff;font:bold 12px Helvetica, sans-serif;margin:2px -12px;padding:2px 6px 3px 6px;text-shadow:rgba(0, 30, 84, .296875) 0 -1px 0}.fb_dialog_content .dialog_header .header_center{color:#fff;font-size:16px;font-weight:bold;line-height:18px;text-align:center;vertical-align:middle}.fb_dialog_content .dialog_content{background:url(https://static.xx.fbcdn.net/rsrc.php/v3/y9/r/jKEcVPZFk-2.gif) no-repeat 50% 50%;border:1px solid #4a4a4a;border-bottom:0;border-top:0;height:150px}.fb_dialog_content .dialog_footer{background:#f5f6f7;border:1px solid #4a4a4a;border-top-color:#ccc;height:40px}#fb_dialog_loader_close{float:left}.fb_dialog.fb_dialog_mobile .fb_dialog_close_icon{visibility:hidden}#fb_dialog_loader_spinner{animation:rotateSpinner 1.2s linear infinite;background-color:transparent;background-image:url(https://static.xx.fbcdn.net/rsrc.php/v3/yD/r/t-wz8gw1xG1.png);background-position:50% 50%;background-repeat:no-repeat;height:24px;width:24px}@keyframes rotateSpinner{0%{transform:rotate(0deg)}100%{transform:rotate(360deg)}}
+.fb_iframe_widget{display:inline-block;position:relative}.fb_iframe_widget span{display:inline-block;position:relative;text-align:justify}.fb_iframe_widget iframe{position:absolute}.fb_iframe_widget_fluid_desktop,.fb_iframe_widget_fluid_desktop span,.fb_iframe_widget_fluid_desktop iframe{max-width:100%}.fb_iframe_widget_fluid_desktop iframe{min-width:220px;position:relative}.fb_iframe_widget_lift{z-index:1}.fb_iframe_widget_fluid{display:inline}.fb_iframe_widget_fluid span{width:100%}
+.fb_mpn_mobile_landing_page_slide_out{animation-duration:200ms;animation-name:fb_mpn_landing_page_slide_out;transition-timing-function:ease-in}.fb_mpn_mobile_landing_page_slide_out_from_left{animation-duration:200ms;animation-name:fb_mpn_landing_page_slide_out_from_left;transition-timing-function:ease-in}.fb_mpn_mobile_landing_page_slide_up{animation-duration:500ms;animation-name:fb_mpn_landing_page_slide_up;transition-timing-function:ease-in}.fb_mpn_mobile_bounce_in{animation-duration:300ms;animation-name:fb_mpn_bounce_in;transition-timing-function:ease-in}.fb_mpn_mobile_bounce_out{animation-duration:300ms;animation-name:fb_mpn_bounce_out;transition-timing-function:ease-in}.fb_mpn_mobile_bounce_out_v2{animation-duration:300ms;animation-name:fb_mpn_fade_out;transition-timing-function:ease-in}.fb_customer_chat_bounce_in_v2{animation-duration:300ms;animation-name:fb_bounce_in_v2;transition-timing-function:ease-in}.fb_customer_chat_bounce_in_from_left{animation-duration:300ms;animation-name:fb_bounce_in_from_left;transition-timing-function:ease-in}.fb_customer_chat_bounce_out_v2{animation-duration:300ms;animation-name:fb_bounce_out_v2;transition-timing-function:ease-in}.fb_customer_chat_bounce_out_from_left{animation-duration:300ms;animation-name:fb_bounce_out_from_left;transition-timing-function:ease-in}.fb_invisible_flow{display:inherit;height:0;overflow-x:hidden;width:0}@keyframes fb_mpn_landing_page_slide_out{0%{margin:0 12px;width:100% - 24px}60%{border-radius:18px}100%{border-radius:50%;margin:0 24px;width:60px}}@keyframes fb_mpn_landing_page_slide_out_from_left{0%{left:12px;width:100% - 24px}60%{border-radius:18px}100%{border-radius:50%;left:12px;width:60px}}@keyframes fb_mpn_landing_page_slide_up{0%{bottom:0;opacity:0}100%{bottom:24px;opacity:1}}@keyframes fb_mpn_bounce_in{0%{opacity:.5;top:100%}100%{opacity:1;top:0}}@keyframes fb_mpn_fade_out{0%{bottom:30px;opacity:1}100%{bottom:0;opacity:0}}@keyframes fb_mpn_bounce_out{0%{opacity:1;top:0}100%{opacity:.5;top:100%}}@keyframes fb_bounce_in_v2{0%{opacity:0;transform:scale(0, 0);transform-origin:bottom right}50%{transform:scale(1.03, 1.03);transform-origin:bottom right}100%{opacity:1;transform:scale(1, 1);transform-origin:bottom right}}@keyframes fb_bounce_in_from_left{0%{opacity:0;transform:scale(0, 0);transform-origin:bottom left}50%{transform:scale(1.03, 1.03);transform-origin:bottom left}100%{opacity:1;transform:scale(1, 1);transform-origin:bottom left}}@keyframes fb_bounce_out_v2{0%{opacity:1;transform:scale(1, 1);transform-origin:bottom right}100%{opacity:0;transform:scale(0, 0);transform-origin:bottom right}}@keyframes fb_bounce_out_from_left{0%{opacity:1;transform:scale(1, 1);transform-origin:bottom left}100%{opacity:0;transform:scale(0, 0);transform-origin:bottom left}}@keyframes slideInFromBottom{0%{opacity:.1;transform:translateY(100%)}100%{opacity:1;transform:translateY(0)}}@keyframes slideInFromBottomDelay{0%{opacity:0;transform:translateY(100%)}97%{opacity:0;transform:translateY(100%)}100%{opacity:1;transform:translateY(0)}}</style></head>
+<body>
+
+The content of the document......
+
+
+
+<script type="text/javascript">
+        var oldPath = window.location.pathname;
+        var newPath = decodeURIComponent( unescape( unescape(oldPath)));
+        
+        if (oldPath !== newPath) {
+            history.pushState({}, "", newPath);
+        }
+        
+        function recaptchaLoadedCallbackWrapper() {
+            if (oldPath !== newPath) {
+                history.pushState({}, "", oldPath);
+            }
+        
+            if (typeof recaptchaLoadedCallback === "function") { 
+                recaptchaLoadedCallback();
+            }
+        }
+</script>
+<script src="https://www.google.com/recaptcha/api.js?onload=recaptchaLoadedCallbackWrapper&amp;render=explicit" async="" defer=""></script>
+	
+	<!-- Plugins -->
+	<link href="//theme.webme.com/designs/semantic/assets/css/flexslider.css" rel="stylesheet">
+	
+	<style>
+	.navbar-custom {
+		background: #ffffff;
+	}
+	
+	.navbar-custom a {
+		color: #666666 !important;
+	}
+	</style>
+	
+	<!-- Template core CSS -->
+	<link href="//theme.webme.com/designs/semantic/assets/css/style.css" rel="stylesheet">
+	
+	<style>
+	.navbar-fixed-bottom .navbar-collapse, .navbar-fixed-top .navbar-collapse {
+		max-height: none;
+	}
+	
+	.module-small, .module-small a {
+		background-color: #ffffff !important;
+		color: #666666;
+	}
+	
+	.footer, .footer a {
+		color: ;
+	}
+	
+	@media (min-width: 768px) {
+				.navbar-transparent .nav li > a, .navbar-transparent .navbar-brand, .navbar-transparent {
+    		color: #fff !important;
+		}
+				.navbar-transparent .dropdown-menu > li > a {
+			color: #fff !important;
+		}
+	}
+	
+	@media (max-width: 767px) {
+				.navbar-custom li a:hover {
+			background:  !important;
+		}
+	}
+	
+	.navbar-custom .dropdown-menu {
+		background-color: #ffffff !important;
+	}
+	
+	.navbar-custom .dropdown-menu > li > a:hover {
+		background-color:  !important;
+		color:  !important;
+	}
+	
+	.footer {
+		background-color:  !important;
+	}
+	
+	.module-title {
+		color: #fff !important;
+	}
+	
+	.navbar-custom .dropdown-menu > li > a {
+		color: #666666 !important;
+	}
+	
+	.hero-slider {
+				color: #fff !important;
+	}
+	
+	.flex-control-nav > li > a:hover, .flex-control-nav > li > a.flex-active {
+		background: #ffffff;
+	}
+	
+	.flex-control-nav > li > a {
+    	background: transparent;
+    	border: 1px solid #ffffff;
+	}
+	
+	input, textarea, select, button {
+	   color: black;
+	}
+	</style>
+
+
+
+	<!-- PRELOADER -->
+	<div class="page-loader" style="display: none;">
+		<div class="loader" style="display: none;">Loading...</div>
+	</div>
+	<!-- /PRELOADER -->
+
+	<!-- NAVIGATION -->
+	<nav class="navbar navbar-custom navbar-transparent navbar-fixed-top" role="navigation">
+
+			<div class="container">
+		
+				<div class="navbar-header">
+					<button type="button" id="semantic-custom-navbar-toggle-button" class="navbar-toggle" data-toggle="collapse" data-target="#custom-collapse">
+						<span class="sr-only">Toggle navigation</span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+					</button>
+					<a class="navbar-brand" href="/">MRsuffix</a>
+				</div>
+		
+				<div class="collapse navbar-collapse" id="custom-collapse">
+		
+					<ul class="nav navbar-nav navbar-right">
+						<li class="dropdown">
+                        <a href="/Ana-Sayfa.htm" class="dropdown-toggle" data-toggle="dropdown">Ana Sayfa</a>
+                        <ul class="dropdown-menu">
+    <li><a href="/Hesaplar.htm">Hesaplar</a></li>
+</ul>
+                    </li>
+<li>
+                        <a href="/Mod-Linkleri.htm">Mod Linkleri</a>
+                        
+                    </li>
+<li>
+                        <a href="/Yeni-Mod-Paketleri.htm">Yeni Mod Paketleri</a>
+                        
+                    </li>
+					</ul>
+				</div>
+		
+			</div>
+
+	</nav>
+	<!-- /NAVIGATION -->
+
+
+	<!-- HOME -->
+	<section id="home" class="module-hero module-parallax module-fade module-full-height" style="height: 812px; top: 0px; opacity: 1;">
+
+		<div class="hero-slider">
+			<ul class="slides">
+				<!-- SLIDE -->
+				<li class="bg-dark" style="width: 100%; float: left; margin-right: -100%; position: relative; opacity: 0; display: block; z-index: 1;">
+
+					<div class="slidebg slide-zoom bg-dark-30" style="background-image:url(//wtheme.webme.com/designs/semantic/assets/images/bg/woods.jpg)"></div>
+
+					<div class="hs-caption container" style="top: -22.6447px; display: table; opacity: 0.308658;">
+						<div class="caption-content">
+							<div class="hs-title-size-3 font-alt m-b-20">
+								MOD PAKEDİ							</div>
+							<div class="hs-title-size-1 font-inc">
+								İNDİRMEK İÇİN SAĞ ÜSTTEKİ BUTONA BAS							</div>
+						</div>
+					</div>
+
+				</li>
+				<!-- /SLIDE -->
+				<!-- SLIDE -->
+				<li class="bg-dark" style="width: 100%; float: left; margin-right: -100%; position: relative; opacity: 1; display: block; z-index: 1;">
+
+					<div class="slidebg slide-zoom bg-dark-30" style="background-image:url(//wtheme.webme.com/designs/semantic/assets/images/bg/nature.jpg)"></div>
+
+					<div class="hs-caption container" style="top: -22.6447px; display: table; opacity: 0.308658;">
+						<div class="caption-content">
+							<div class="hs-title-size-3 font-alt m-b-20">
+								MOD PAKEDİ							</div>
+							<div class="hs-title-size-1 font-inc">
+								İNDİRMEK İÇİN SAĞ ÜSTTEKİ BUTONA BAS							</div>
+						</div>
+					</div>
+
+				</li>
+				<!-- /SLIDE -->
+				<!-- SLIDE -->
+				<li class="bg-dark flex-active-slide" style="width: 100%; float: left; margin-right: -100%; position: relative; opacity: 0; display: block; z-index: 2;">
+
+					<div class="slidebg slide-zoom bg-dark-30" style="background-image:url(//wtheme.webme.com/designs/semantic/assets/images/bg/overview.jpg)"></div>
+
+					<div class="hs-caption container" style="top: -22.6447px; display: table; opacity: 0.308658;">
+						<div class="caption-content">
+							<div class="hs-title-size-3 font-alt m-b-20">
+								MOD PAKEDİ							</div>
+							<div class="hs-title-size-1 font-inc">
+								İNDİRMEK İÇİN SAĞ ÜSTTEKİ BUTONA BAS							</div>
+						</div>
+					</div>
+
+				</li>
+				<!-- /SLIDE -->
+			</ul>
+		<ol class="flex-control-nav flex-control-paging"><li><a class="">1</a></li><li><a class="">2</a></li><li><a class="flex-active">3</a></li></ol><ul class="flex-direction-nav"><li><a class="flex-prev" href="#"></a></li><li><a class="flex-next" href="#"></a></li></ul><ol class="flex-control-nav flex-control-paging"><li><a>1</a></li><li><a>2</a></li><li><a>3</a></li></ol><ul class="flex-direction-nav"><li><a class="flex-prev" href="#"></a></li><li><a class="flex-next" href="#"></a></li></ul></div>
+
+	</section>
+	<!-- /HOME -->
+
+
+
+	<!-- WRAPPER -->
+	<div class="wrapper">
+
+
+		<section id="mainContent" class="module-small" style="min-height: 500px;">
+			<div class="container">
+				<div class="row">
+                        <div class="col-sm-12">
+<br>
+                            Selam Kullanıcı ...<br>
+<br>
+Ben MRsuffix .<br>
+<br>
+Sana Burada Minecraft Modlu Sezon 1 Vs. Birçok Şey Vereceğim.<br>
+Tadını Çıkar.<br>
+:)
+<br><br><br><hr>			<br><b>Bu sayfa hakkında yorum ekle:</b><br>
+			<center>
+				<form action="Ana-Sayfa.htm#comment" method="POST">
+					<table>
+						<tbody><tr style="text-align:left;"><td>İsmin:</td><td><input value="" type="text" name="modulenter[name]" style="width: 150px; "></td></tr><tr style="text-align:left;"><td>Mesajınız:</td><td><textarea id="kommentartext" name="modulenter[text]" rows="6" style="width: 250px;  height:100px;"></textarea></td></tr>
+					</tbody></table>
+					
+<script type="text/javascript">
+function insert_smilie (code) {
+	document.getElementById('kommentartext').value += ' ' + code;
+	document.getElementById('kommentartext').focus();
+}
+</script><a href="#" class="InsertSmilie" onclick="insert_smilie(';)'); blur(this); return false;"><img src="//theme.webme.com/smiles/wink.gif" border="0"></a><a href="#" class="InsertSmilie" onclick="insert_smilie(':)'); blur(this); return false;"><img src="//theme.webme.com/smiles/smiley.gif" border="0"></a><a href="#" class="InsertSmilie" onclick="insert_smilie(':D'); blur(this); return false;"><img src="//theme.webme.com/smiles/cheesy.gif" border="0"></a><a href="#" class="InsertSmilie" onclick="insert_smilie('>:('); blur(this); return false;"><img src="//theme.webme.com/smiles/angry.gif" border="0"></a><a href="#" class="InsertSmilie" onclick="insert_smilie(':('); blur(this); return false;"><img src="//theme.webme.com/smiles/sad.gif" border="0"></a><a href="#" class="InsertSmilie" onclick="insert_smilie(':o'); blur(this); return false;"><img src="//theme.webme.com/smiles/shocked.gif" border="0"></a><a href="#" class="InsertSmilie" onclick="insert_smilie('8)'); blur(this); return false;"><img src="//theme.webme.com/smiles/cool.gif" border="0"></a><a href="#" class="InsertSmilie" onclick="insert_smilie('???'); blur(this); return false;"><img src="//theme.webme.com/smiles/huh.gif" border="0"></a><a href="#" class="InsertSmilie" onclick="insert_smilie(';-)'); blur(this); return false;"><img src="//theme.webme.com/smiles/rolleyes.gif" border="0"></a><a href="#" class="InsertSmilie" onclick="insert_smilie(':P'); blur(this); return false;"><img src="//theme.webme.com/smiles/tongue.gif" border="0"></a><a href="#" class="InsertSmilie" onclick="insert_smilie(':\'('); blur(this); return false;"><img src="//theme.webme.com/smiles/cry.gif" border="0"></a><br>
+					<input type="hidden" name="mode" value="addacomment_step1">
+					<input type="submit" value="Yorum ekle">
+				</form>
+			</center>                        </div>
+				</div>
+			</div>
+		</section>
+
+
+		<hr class="divider-w">
+
+		<!-- CONTACT -->
+		<section id="contactRowFooterContent" class="module-small" style="padding: 30px 0;">
+		
+			<div class="container">
+		
+				<div class="row">
+		
+					<!-- CONTENT BOX -->
+					<div class="col-sm-4">
+						<div class="content-box">
+							<div class="content-box-icon">
+<span class="fa fa-map-marker"></span>							</div>
+							<div class="content-box-title font-inc">
+							</div>
+						</div>
+					</div>
+					<!-- /CONTENT BOX -->
+		
+					<!-- CONTENT BOX -->
+					<div class="col-sm-4">
+						<div class="content-box">
+							<div class="content-box-icon">
+								<span class="fa fa-mobile"></span>
+							</div>
+							<div class="content-box-title font-inc">
+															</div>
+						</div>
+					</div>
+					<!-- /CONTENT BOX -->
+		
+					<!-- CONTENT BOX -->
+					<div class="col-sm-4">
+						<div class="content-box">
+							<div class="content-box-icon">
+								<a href="mailto:"><span class="fa fa-envelope-open-o"></span></a>
+							</div>
+							<div class="content-box-title font-inc">
+								<a href="mailto:"></a>
+							</div>
+						</div>
+					</div>
+					<!-- /CONTENT BOX -->
+		
+				</div>
+		
+			</div>
+		
+		</section>
+		<!-- /CONTACT -->
+		
+
+		<!-- FOOTER -->
+		<footer class="footer">
+		
+			<div class="container">
+		
+				<div class="row">
+					<div class="col-sm-12 text-center">
+<div id="fb-root" class=" fb_reset fb_reset"><div style="position: absolute; top: -10000px; width: 0px; height: 0px;"><div></div></div><div style="position: absolute; top: -10000px; width: 0px; height: 0px;"><div></div></div></div>
+<script async="" defer="" crossorigin="anonymous" src="https://connect.facebook.net/en_US/sdk.js#xfbml=1&amp;version=v11.0&amp;appId=339062219495910"></script>
+<div class="fb-like fb_iframe_widget" data-href="http%3A%2F%2FMRsuffix.tr.gg" data-width="120" data-layout="button_count" data-action="like" data-size="small" data-share="false" fb-xfbml-state="rendered" fb-iframe-plugin-query="action=like&amp;app_id=339062219495910&amp;container_width=1140&amp;href=https%3A%2F%2Fmrsuffix.tr.gg%2Fhttp%253A%252F%252FMRsuffix.tr.gg&amp;layout=button_count&amp;locale=en_US&amp;sdk=joey&amp;share=false&amp;size=small&amp;width=120"><span style="vertical-align: bottom; width: 90px; height: 28px;"><iframe name="f490b80413bb7c" width="120px" height="1000px" data-testid="fb:like Facebook Social Plugin" title="fb:like Facebook Social Plugin" frameborder="0" allowtransparency="true" allowfullscreen="true" scrolling="no" allow="encrypted-media" src="https://www.facebook.com/v11.0/plugins/like.php?action=like&amp;app_id=339062219495910&amp;channel=https%3A%2F%2Fstaticxx.facebook.com%2Fx%2Fconnect%2Fxd_arbiter%2F%3Fversion%3D46%23cb%3Df26c60c8126f7c%26domain%3Dmrsuffix.tr.gg%26is_canvas%3Dfalse%26origin%3Dhttps%253A%252F%252Fmrsuffix.tr.gg%252Ff37077e0623cad%26relation%3Dparent.parent&amp;container_width=1140&amp;href=https%3A%2F%2Fmrsuffix.tr.gg%2Fhttp%253A%252F%252FMRsuffix.tr.gg&amp;layout=button_count&amp;locale=en_US&amp;sdk=joey&amp;share=false&amp;size=small&amp;width=120" style="border: none; visibility: visible; width: 90px; height: 28px;" class=""></iframe></span></div><ul class="social-links clearfix hidden-xs"><li class="youtube"><a target="_blank" href="https://www.youtube.com/channel/UChYuGYTHWg9s2I-5E9jbCGQ"><i class="fa fa-youtube"></i></a></li></ul>						Bugün 1 ziyaretçi (49 klik) kişi burdaydı!					
+						<p class="copyright font-inc m-b-0">© 2022 <a href="/">MRsuffix</a></p>
+						
+						<script language="JavaScript">
+		function getBrowser() {
+			var ua, matched, browser;
+		
+			ua = navigator.userAgent;
+			ua = ua.toLowerCase();
+		
+			var match = /(chrome)[ \/]([\w.]+)/.exec( ua ) ||
+				/(webkit)[ \/]([\w.]+)/.exec( ua ) ||
+				/(opera)(?:.*version|)[ \/]([\w.]+)/.exec( ua ) ||
+				/(msie)[\s?]([\w.]+)/.exec( ua ) ||
+				/(trident)(?:.*? rv:([\w.]+)|)/.exec( ua ) ||
+		
+				ua.indexOf("compatible") < 0 && /(mozilla)(?:.*? rv:([\w.]+)|)/.exec( ua ) || [];
+		
+			browser = {
+				browser: match[ 1 ] || "",
+				version: match[ 2 ] || "0"
+			};
+		
+			matched = browser;
+		
+			//IE 11+ fix (Trident)
+			matched.browser = matched.browser == 'trident' ? 'msie' : matched.browser;
+			browser = {};
+		
+			if ( matched.browser ) {
+				browser[ matched.browser ] = true;
+				browser.version = matched.version;
+			}
+		
+			// Chrome is Webkit, but Webkit is also Safari.
+			if ( browser.chrome ) {
+				browser.webkit = true;
+			} else if ( browser.webkit ) {
+				browser.safari = true;
+			}
+			return browser;
+		}
+		
+		var browser = getBrowser();
+		var contentType = '';
+		
+		var tagsToWrite = Array();
+		tagsToWrite['bgsound'] =  '<bgsound src="https:\/\/www.youtube.com\/watch?v=4izg9Spbbkk" loop=infinite>';
+		tagsToWrite['audio'] =  '<audio src="https:\/\/www.youtube.com\/watch?v=4izg9Spbbkk" loop="loop" autoplay="autoplay"></audio>';
+		tagsToWrite['embed'] =  '<EMBED src="https:\/\/www.youtube.com\/watch?v=4izg9Spbbkk" width="1" height="1" hidden="true" loop="true" autostart="true"></EMBED>';
+		
+		var tagKey = 'audio';
+		
+		if (contentType === 'ogg') {
+			if (browser.msie || browser.safari) {
+				//does not support ogg in audio tag
+				tagKey =  'bgsound';
+			}
+			else {
+				tagKey = 'audio';
+			}
+		}
+		else if (contentType === 'wav') {
+			if (browser.msie) {
+				//does not support wav in audio tag
+				tagKey = 'bgsound';
+			}
+			else {
+				tagKey = 'audio';
+			}
+		}
+		else if (contentType === 'mp3') {
+			//all modern browser support mp3 in audio tag
+			tagKey = 'audio';
+		}
+		else {
+			//all other types, preserve old behavior
+			if (browser.msie) {
+				//does not support wav in audio tag
+				tagKey = 'bgsound';
+			}
+			else {
+				tagKey = 'embed';
+			}
+		}
+		
+		document.write(tagsToWrite[tagKey]);
+		</script><embed src="https://www.youtube.com/watch?v=4izg9Spbbkk" width="1" height="1" hidden="true" loop="true" autostart="true"><embed src="https://www.youtube.com/watch?v=4izg9Spbbkk" width="1" height="1" hidden="true" loop="true" autostart="true">												<!--We want every page to be scrollable to the bottom and assume that 90px are usually enough-->
+<div style="height:90px">
+
+</div>
+
+<a id="selfpromotionOverlay" href="https://www.bedava-sitem.com/?c=4000&amp;utm_source=selfpromotion&amp;utm_campaign=overlay&amp;utm_medium=footer" target="_blank" rel="nofollow">
+    Bu web sitesi ücretsiz olarak <b>Bedava-Sitem.com</b> ile oluşturulmuştur. Siz de kendi web sitenizi kurmak ister misiniz?
+
+    <div class="btn btn-1">Ücretsiz kaydol</div>
+
+</a>
+<style>
+    /* General button style */
+    #selfpromotionOverlay .btn {
+        border: none;
+        font-size: inherit;
+        color: inherit;
+        background: none;
+        cursor: pointer;
+        padding: 6px 15px;
+        display: inline-block;
+        text-transform: uppercase;
+        letter-spacing: 1px;
+        font-weight: 700;
+        outline: none;
+        position: relative;
+        -webkit-transition: all 0.3s;
+        -moz-transition: all 0.3s;
+        transition: all 0.3s;
+        margin: 0px;
+    }
+
+    /* Button 1 */
+    #selfpromotionOverlay .btn-1, #selfpromotionOverlay .btn-1:visited {
+        background: rgb(0, 85, 204);
+        color: #fff;
+    }
+
+    #selfpromotionOverlay .btn-1:hover {
+        background: #2980b9;
+    }
+
+    #selfpromotionOverlay .btn-1:active {
+        background: #2980b9;
+        top: 2px;
+    }
+
+    #selfpromotionOverlay {
+        font: 400 12px/1.8 "Open Sans", Verdana, sans-serif;
+        text-align: center;
+        opacity: 1;
+        transition: opacity 1s ease;
+        position: fixed;
+        overflow: hidden;
+        box-sizing: border-box;
+        font-size: 14px;
+        text-decoration: none;
+        line-height: 1.5em;
+        flex-wrap: nowrap;
+        z-index: 5000;
+        padding: 14px;
+        width: 100%;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        color: rgb(35,35,35);
+        background-color: rgb(246,246,246);
+        border-top: 1px solid #5a5a5a;
+    }
+
+    #selfpromotionOverlay:hover {
+        background: white;
+        text-decoration: none;
+    }
+</style>						
+					</div>
+		
+				</div>
+		
+			</div>
+		
+		</footer>
+		<!-- /FOOTER -->
+
+	</div>
+	<!-- /WRAPPER -->
+	<!-- Scroll-up -->
+	<div class="scroll-up">
+		<a href="#totop"><i class="fa fa-angle-double-up"></i></a>
+	</div>
+	
+	<!-- Javascript files -->
+	<script src="//theme.webme.com/designs/semantic/assets/js/jquery.flexslider-min.js"></script>
+	<script src="//theme.webme.com/designs/semantic/assets/js/custom.js"></script>
+
+
+
+<div id="flake0" style="position: absolute; left: 373px; top: 39px; color: rgb(204, 204, 221); font-size: 21px; z-index: 20000;">*</div><div id="flake1" style="position: absolute; left: 373px; top: 1368px; color: rgb(240, 255, 255); font-size: 19px; z-index: 20000;">*</div><div id="flake2" style="position: absolute; left: 495px; top: 843px; color: rgb(243, 243, 243); font-size: 18px; z-index: 20000;">*</div><div id="flake3" style="position: absolute; left: 646px; top: 1009px; color: rgb(243, 243, 243); font-size: 23px; z-index: 20000;">*</div><div id="flake4" style="position: absolute; left: 793px; top: 535px; color: rgb(204, 204, 221); font-size: 21px; z-index: 20000;">*</div><div id="flake5" style="position: absolute; left: 31px; top: 363px; color: rgb(243, 243, 243); font-size: 13px; z-index: 20000;">*</div><div id="flake6" style="position: absolute; left: 452px; top: 1854px; color: rgb(170, 170, 204); font-size: 20px; z-index: 20000;">*</div><div id="flake7" style="position: absolute; left: 832px; top: 82px; color: rgb(221, 221, 255); font-size: 20px; z-index: 20000;">*</div><div id="flake8" style="position: absolute; left: 540px; top: 1191px; color: rgb(221, 221, 255); font-size: 12px; z-index: 20000;">*</div><div id="flake9" style="position: absolute; left: 951px; top: 431px; color: rgb(240, 255, 255); font-size: 18px; z-index: 20000;">*</div><div id="flake10" style="position: absolute; left: 838px; top: 144px; color: rgb(240, 255, 255); font-size: 10px; z-index: 20000;">*</div><div id="flake11" style="position: absolute; left: 834px; top: 1343px; color: rgb(170, 170, 204); font-size: 17px; z-index: 20000;">*</div><div id="flake12" style="position: absolute; left: 937px; top: 248px; color: rgb(221, 221, 255); font-size: 18px; z-index: 20000;">*</div><div id="flake13" style="position: absolute; left: 260px; top: 154px; color: rgb(204, 204, 221); font-size: 12px; z-index: 20000;">*</div><div id="flake14" style="position: absolute; left: 408px; top: 71px; color: rgb(204, 204, 221); font-size: 17px; z-index: 20000;">*</div><div id="flake15" style="position: absolute; left: 408px; top: 864px; color: rgb(221, 221, 255); font-size: 19px; z-index: 20000;">*</div><div id="flake16" style="position: absolute; left: 545px; top: 208px; color: rgb(243, 243, 243); font-size: 16px; z-index: 20000;">*</div><div id="flake17" style="position: absolute; left: 957px; top: 100px; color: rgb(204, 204, 221); font-size: 24px; z-index: 20000;">*</div><div id="flake18" style="position: absolute; left: 292px; top: 284px; color: rgb(240, 255, 255); font-size: 11px; z-index: 20000;">*</div><div id="flake19" style="position: absolute; left: 881px; top: 465px; color: rgb(240, 255, 255); font-size: 23px; z-index: 20000;">*</div><div id="flake20" style="position: absolute; left: 467px; top: 1286px; color: rgb(221, 221, 255); font-size: 17px; z-index: 20000;">*</div><div id="flake21" style="position: absolute; left: 781px; top: 1390px; color: rgb(243, 243, 243); font-size: 15px; z-index: 20000;">*</div><div id="flake22" style="position: absolute; left: 597px; top: 1422px; color: rgb(240, 255, 255); font-size: 17px; z-index: 20000;">*</div><div id="flake23" style="position: absolute; left: 603px; top: 1866px; color: rgb(221, 221, 255); font-size: 13px; z-index: 20000;">*</div><div id="flake24" style="position: absolute; left: 295px; top: 725px; color: rgb(221, 221, 255); font-size: 12px; z-index: 20000;">*</div><div id="flake25" style="position: absolute; left: 627px; top: 1028px; color: rgb(204, 204, 221); font-size: 21px; z-index: 20000;">*</div><div id="flake26" style="position: absolute; left: 1023px; top: 1039px; color: rgb(240, 255, 255); font-size: 20px; z-index: 20000;">*</div><div id="flake27" style="position: absolute; left: 887px; top: 951px; color: rgb(243, 243, 243); font-size: 16px; z-index: 20000;">*</div><div id="flake28" style="position: absolute; left: 955px; top: 1882px; color: rgb(240, 255, 255); font-size: 13px; z-index: 20000;">*</div><div id="flake29" style="position: absolute; left: 962px; top: 1677px; color: rgb(221, 221, 255); font-size: 22px; z-index: 20000;">*</div><div id="flake30" style="position: absolute; left: 118px; top: 1471px; color: rgb(221, 221, 255); font-size: 24px; z-index: 20000;">*</div><div id="flake31" style="position: absolute; left: 622px; top: 289px; color: rgb(240, 255, 255); font-size: 10px; z-index: 20000;">*</div><div id="flake32" style="position: absolute; left: 265px; top: 366px; color: rgb(170, 170, 204); font-size: 13px; z-index: 20000;">*</div><div id="flake33" style="position: absolute; left: 891px; top: 1538px; color: rgb(204, 204, 221); font-size: 13px; z-index: 20000;">*</div><div id="flake34" style="position: absolute; left: 96px; top: 1472px; color: rgb(243, 243, 243); font-size: 19px; z-index: 20000;">*</div><div id="flake35" style="position: absolute; left: 862px; top: 1252px; color: rgb(170, 170, 204); font-size: 12px; z-index: 20000;">*</div><div id="flake36" style="position: absolute; left: 303px; top: 376px; color: rgb(243, 243, 243); font-size: 23px; z-index: 20000;">*</div><div id="flake37" style="position: absolute; left: 25px; top: 1752px; color: rgb(240, 255, 255); font-size: 11px; z-index: 20000;">*</div><div id="flake38" style="position: absolute; left: 690px; top: 700px; color: rgb(243, 243, 243); font-size: 20px; z-index: 20000;">*</div><div id="flake39" style="position: absolute; left: 758px; top: 938px; color: rgb(221, 221, 255); font-size: 11px; z-index: 20000;">*</div><div id="flake40" style="position: absolute; left: 250px; top: 1486px; color: rgb(221, 221, 255); font-size: 16px; z-index: 20000;">*</div><div id="flake41" style="position: absolute; left: 944px; top: 523px; color: rgb(240, 255, 255); font-size: 20px; z-index: 20000;">*</div><div id="flake42" style="position: absolute; left: 933px; top: 333px; color: rgb(240, 255, 255); font-size: 22px; z-index: 20000;">*</div><div id="flake43" style="position: absolute; left: 63px; top: 664px; color: rgb(204, 204, 221); font-size: 22px; z-index: 20000;">*</div><div id="flake44" style="position: absolute; left: 673px; top: 702px; color: rgb(221, 221, 255); font-size: 19px; z-index: 20000;">*</div><div id="flake45" style="position: absolute; left: 18px; top: 1466px; color: rgb(221, 221, 255); font-size: 23px; z-index: 20000;">*</div><div id="flake46" style="position: absolute; left: 542px; top: -5px; color: rgb(170, 170, 204); font-size: 19px; z-index: 20000;">*</div><div id="flake47" style="position: absolute; left: 369px; top: 880px; color: rgb(240, 255, 255); font-size: 17px; z-index: 20000;">*</div><div id="flake48" style="position: absolute; left: 253px; top: 705px; color: rgb(243, 243, 243); font-size: 14px; z-index: 20000;">*</div><div id="flake49" style="position: absolute; left: 161px; top: 1634px; color: rgb(240, 255, 255); font-size: 19px; z-index: 20000;">*</div><div id="flake50" style="position: absolute; left: 178px; top: 1144px; color: rgb(170, 170, 204); font-size: 17px; z-index: 20000;">*</div><div id="flake51" style="position: absolute; left: 774px; top: 798px; color: rgb(243, 243, 243); font-size: 21px; z-index: 20000;">*</div><div id="flake52" style="position: absolute; left: 76px; top: 1478px; color: rgb(243, 243, 243); font-size: 10px; z-index: 20000;">*</div><div id="flake53" style="position: absolute; left: 459px; top: 1846px; color: rgb(221, 221, 255); font-size: 13px; z-index: 20000;">*</div><div id="flake54" style="position: absolute; left: 253px; top: 821px; color: rgb(204, 204, 221); font-size: 12px; z-index: 20000;">*</div><div id="flake55" style="position: absolute; left: 559px; top: 1008px; color: rgb(240, 255, 255); font-size: 17px; z-index: 20000;">*</div><div id="flake56" style="position: absolute; left: 33px; top: 166px; color: rgb(170, 170, 204); font-size: 23px; z-index: 20000;">*</div><div id="flake57" style="position: absolute; left: 209px; top: 103px; color: rgb(243, 243, 243); font-size: 14px; z-index: 20000;">*</div><div id="flake58" style="position: absolute; left: 368px; top: 784px; color: rgb(221, 221, 255); font-size: 13px; z-index: 20000;">*</div><div id="flake59" style="position: absolute; left: 60px; top: 805px; color: rgb(240, 255, 255); font-size: 21px; z-index: 20000;">*</div><div id="flake60" style="position: absolute; left: 511px; top: -10px; color: rgb(221, 221, 255); font-size: 24px; z-index: 20000;">*</div><div id="flake61" style="position: absolute; left: 64px; top: 1693px; color: rgb(221, 221, 255); font-size: 11px; z-index: 20000;">*</div><div id="flake62" style="position: absolute; left: 757px; top: 756px; color: rgb(204, 204, 221); font-size: 23px; z-index: 20000;">*</div><div id="flake63" style="position: absolute; left: 437px; top: 1315px; color: rgb(243, 243, 243); font-size: 15px; z-index: 20000;">*</div><div id="flake64" style="position: absolute; left: 553px; top: 41px; color: rgb(240, 255, 255); font-size: 15px; z-index: 20000;">*</div><div id="flake65" style="position: absolute; left: 724px; top: 94px; color: rgb(240, 255, 255); font-size: 22px; z-index: 20000;">*</div><div id="flake66" style="position: absolute; left: 959px; top: 1668px; color: rgb(204, 204, 221); font-size: 22px; z-index: 20000;">*</div><div id="flake67" style="position: absolute; left: 342px; top: 1690px; color: rgb(221, 221, 255); font-size: 20px; z-index: 20000;">*</div><div id="flake68" style="position: absolute; left: 144px; top: 392px; color: rgb(243, 243, 243); font-size: 22px; z-index: 20000;">*</div><div id="flake69" style="position: absolute; left: 643px; top: 53px; color: rgb(240, 255, 255); font-size: 16px; z-index: 20000;">*</div><div id="flake70" style="position: absolute; left: 766px; top: 1136px; color: rgb(240, 255, 255); font-size: 16px; z-index: 20000;">*</div><div id="flake71" style="position: absolute; left: 810px; top: 811px; color: rgb(204, 204, 221); font-size: 11px; z-index: 20000;">*</div><div id="flake72" style="position: absolute; left: 369px; top: 285px; color: rgb(240, 255, 255); font-size: 23px; z-index: 20000;">*</div><div id="flake73" style="position: absolute; left: 349px; top: 418px; color: rgb(243, 243, 243); font-size: 23px; z-index: 20000;">*</div><div id="flake74" style="position: absolute; left: 422px; top: 1744px; color: rgb(204, 204, 221); font-size: 21px; z-index: 20000;">*</div><div id="flake75" style="position: absolute; left: 95px; top: 8px; color: rgb(204, 204, 221); font-size: 11px; z-index: 20000;">*</div><div id="flake76" style="position: absolute; left: 711px; top: 610px; color: rgb(204, 204, 221); font-size: 10px; z-index: 20000;">*</div><div id="flake77" style="position: absolute; left: 849px; top: 1643px; color: rgb(243, 243, 243); font-size: 15px; z-index: 20000;">*</div><div id="flake78" style="position: absolute; left: 283px; top: 1095px; color: rgb(240, 255, 255); font-size: 18px; z-index: 20000;">*</div><div id="flake79" style="position: absolute; left: 397px; top: 1136px; color: rgb(204, 204, 221); font-size: 10px; z-index: 20000;">*</div><div id="flake80" style="position: absolute; left: 887px; top: 1580px; color: rgb(204, 204, 221); font-size: 21px; z-index: 20000;">*</div><div id="flake81" style="position: absolute; left: 94px; top: 1569px; color: rgb(240, 255, 255); font-size: 12px; z-index: 20000;">*</div><div id="flake82" style="position: absolute; left: 1029px; top: 791px; color: rgb(170, 170, 204); font-size: 14px; z-index: 20000;">*</div><div id="flake83" style="position: absolute; left: 559px; top: 52px; color: rgb(243, 243, 243); font-size: 18px; z-index: 20000;">*</div><div id="flake84" style="position: absolute; left: 104px; top: 708px; color: rgb(243, 243, 243); font-size: 13px; z-index: 20000;">*</div><div id="flake85" style="position: absolute; left: 201px; top: 1652px; color: rgb(243, 243, 243); font-size: 20px; z-index: 20000;">*</div><div id="flake86" style="position: absolute; left: 371px; top: 1545px; color: rgb(240, 255, 255); font-size: 11px; z-index: 20000;">*</div><div id="flake87" style="position: absolute; left: 559px; top: 1833px; color: rgb(204, 204, 221); font-size: 13px; z-index: 20000;">*</div><div id="flake88" style="position: absolute; left: 286px; top: 1700px; color: rgb(243, 243, 243); font-size: 20px; z-index: 20000;">*</div><div id="flake89" style="position: absolute; left: 400px; top: 1347px; color: rgb(221, 221, 255); font-size: 10px; z-index: 20000;">*</div><div id="flake90" style="position: absolute; left: 250px; top: 858px; color: rgb(243, 243, 243); font-size: 16px; z-index: 20000;">*</div><div id="flake91" style="position: absolute; left: 1009px; top: 1135px; color: rgb(170, 170, 204); font-size: 19px; z-index: 20000;">*</div><div id="flake92" style="position: absolute; left: 68px; top: 807px; color: rgb(204, 204, 221); font-size: 20px; z-index: 20000;">*</div><div id="flake93" style="position: absolute; left: 996px; top: 679px; color: rgb(240, 255, 255); font-size: 16px; z-index: 20000;">*</div><div id="flake94" style="position: absolute; left: 810px; top: 930px; color: rgb(204, 204, 221); font-size: 23px; z-index: 20000;">*</div><div id="flake95" style="position: absolute; left: 647px; top: 687px; color: rgb(243, 243, 243); font-size: 12px; z-index: 20000;">*</div><div id="flake96" style="position: absolute; left: 815px; top: 881px; color: rgb(204, 204, 221); font-size: 24px; z-index: 20000;">*</div><div id="flake97" style="position: absolute; left: 326px; top: 1284px; color: rgb(204, 204, 221); font-size: 16px; z-index: 20000;">*</div><div id="flake98" style="position: absolute; left: 881px; top: 193px; color: rgb(243, 243, 243); font-size: 20px; z-index: 20000;">*</div><div id="flake99" style="position: absolute; left: 629px; top: 1230px; color: rgb(204, 204, 221); font-size: 20px; z-index: 20000;">*</div>
+<script type="text/javascript">
+        var oldPath = window.location.pathname;
+        var newPath = decodeURIComponent( unescape( unescape(oldPath)));
+        
+        if (oldPath !== newPath) {
+            history.pushState({}, "", newPath);
+        }
+        
+        function recaptchaLoadedCallbackWrapper() {
+            if (oldPath !== newPath) {
+                history.pushState({}, "", oldPath);
+            }
+        
+            if (typeof recaptchaLoadedCallback === "function") { 
+                recaptchaLoadedCallback();
+            }
+        }
+</script>
+<script src="https://www.google.com/recaptcha/api.js?onload=recaptchaLoadedCallbackWrapper&amp;render=explicit" async="" defer=""></script>
+	
+	<!-- Plugins -->
+	<link href="//theme.webme.com/designs/semantic/assets/css/flexslider.css" rel="stylesheet">
+	
+	<style>
+	.navbar-custom {
+		background: #ffffff;
+	}
+	
+	.navbar-custom a {
+		color: #666666 !important;
+	}
+	</style>
+	
+	<!-- Template core CSS -->
+	<link href="//theme.webme.com/designs/semantic/assets/css/style.css" rel="stylesheet">
+	
+	<style>
+	.navbar-fixed-bottom .navbar-collapse, .navbar-fixed-top .navbar-collapse {
+		max-height: none;
+	}
+	
+	.module-small, .module-small a {
+		background-color: #ffffff !important;
+		color: #666666;
+	}
+	
+	.footer, .footer a {
+		color: ;
+	}
+	
+	@media (min-width: 768px) {
+				.navbar-transparent .nav li > a, .navbar-transparent .navbar-brand, .navbar-transparent {
+    		color: #fff !important;
+		}
+				.navbar-transparent .dropdown-menu > li > a {
+			color: #fff !important;
+		}
+	}
+	
+	@media (max-width: 767px) {
+				.navbar-custom li a:hover {
+			background:  !important;
+		}
+	}
+	
+	.navbar-custom .dropdown-menu {
+		background-color: #ffffff !important;
+	}
+	
+	.navbar-custom .dropdown-menu > li > a:hover {
+		background-color:  !important;
+		color:  !important;
+	}
+	
+	.footer {
+		background-color:  !important;
+	}
+	
+	.module-title {
+		color: #fff !important;
+	}
+	
+	.navbar-custom .dropdown-menu > li > a {
+		color: #666666 !important;
+	}
+	
+	.hero-slider {
+				color: #fff !important;
+	}
+	
+	.flex-control-nav > li > a:hover, .flex-control-nav > li > a.flex-active {
+		background: #ffffff;
+	}
+	
+	.flex-control-nav > li > a {
+    	background: transparent;
+    	border: 1px solid #ffffff;
+	}
+	
+	input, textarea, select, button {
+	   color: black;
+	}
+	</style>
+
+
+
+	<!-- PRELOADER -->
+	<div class="page-loader" style="display: none;">
+		<div class="loader" style="display: none;">Loading...</div>
+	</div>
+	<!-- /PRELOADER -->
+
+	<!-- NAVIGATION -->
+	<nav class="navbar navbar-custom navbar-transparent navbar-fixed-top" role="navigation">
+
+			<div class="container">
+		
+				<div class="navbar-header">
+					<button type="button" id="semantic-custom-navbar-toggle-button" class="navbar-toggle" data-toggle="collapse" data-target="#custom-collapse">
+						<span class="sr-only">Toggle navigation</span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+					</button>
+					<a class="navbar-brand" href="/">MRsuffix</a>
+				</div>
+		
+				<div class="collapse navbar-collapse" id="custom-collapse">
+		
+					<ul class="nav navbar-nav navbar-right">
+						<li class="dropdown">
+                        <a href="/Ana-Sayfa.htm" class="dropdown-toggle" data-toggle="dropdown">Ana Sayfa</a>
+                        <ul class="dropdown-menu">
+    <li><a href="/Hesaplar.htm">Hesaplar</a></li>
+</ul>
+                    </li>
+<li>
+                        <a href="/Mod-Linkleri.htm">Mod Linkleri</a>
+                        
+                    </li>
+<li>
+                        <a href="/Yeni-Mod-Paketleri.htm">Yeni Mod Paketleri</a>
+                        
+                    </li>
+					</ul>
+				</div>
+		
+			</div>
+
+	</nav>
+	<!-- /NAVIGATION -->
+
+
+	<!-- HOME -->
+	<section id="home" class="module-hero module-parallax module-fade module-full-height" style="height: 812px;">
+
+		<div class="hero-slider">
+			<ul class="slides">
+				<!-- SLIDE -->
+				<li class="bg-dark" style="width: 100%; float: left; margin-right: -100%; position: relative; opacity: 0; display: block; z-index: 1;">
+
+					<div class="slidebg slide-zoom bg-dark-30" style="background-image:url(//wtheme.webme.com/designs/semantic/assets/images/bg/woods.jpg)"></div>
+
+					<div class="hs-caption container" style="top: -22.6447px; display: table; opacity: 0.308658;">
+						<div class="caption-content">
+							<div class="hs-title-size-3 font-alt m-b-20">
+								MOD PAKEDİ							</div>
+							<div class="hs-title-size-1 font-inc">
+								İNDİRMEK İÇİN SAĞ ÜSTTEKİ BUTONA BAS							</div>
+						</div>
+					</div>
+
+				</li>
+				<!-- /SLIDE -->
+				<!-- SLIDE -->
+				<li class="bg-dark" style="width: 100%; float: left; margin-right: -100%; position: relative; opacity: 1; display: block; z-index: 1;">
+
+					<div class="slidebg slide-zoom bg-dark-30" style="background-image:url(//wtheme.webme.com/designs/semantic/assets/images/bg/nature.jpg)"></div>
+
+					<div class="hs-caption container" style="top: -22.6447px; display: table; opacity: 0.308658;">
+						<div class="caption-content">
+							<div class="hs-title-size-3 font-alt m-b-20">
+								MOD PAKEDİ							</div>
+							<div class="hs-title-size-1 font-inc">
+								İNDİRMEK İÇİN SAĞ ÜSTTEKİ BUTONA BAS							</div>
+						</div>
+					</div>
+
+				</li>
+				<!-- /SLIDE -->
+				<!-- SLIDE -->
+				<li class="bg-dark flex-active-slide" style="width: 100%; float: left; margin-right: -100%; position: relative; opacity: 0; display: block; z-index: 2;">
+
+					<div class="slidebg slide-zoom bg-dark-30" style="background-image:url(//wtheme.webme.com/designs/semantic/assets/images/bg/overview.jpg)"></div>
+
+					<div class="hs-caption container" style="top: -22.6447px; display: table; opacity: 0.308658;">
+						<div class="caption-content">
+							<div class="hs-title-size-3 font-alt m-b-20">
+								MOD PAKEDİ							</div>
+							<div class="hs-title-size-1 font-inc">
+								İNDİRMEK İÇİN SAĞ ÜSTTEKİ BUTONA BAS							</div>
+						</div>
+					</div>
+
+				</li>
+				<!-- /SLIDE -->
+			</ul>
+		<ol class="flex-control-nav flex-control-paging"><li><a class="">1</a></li><li><a class="">2</a></li><li><a class="flex-active">3</a></li></ol><ul class="flex-direction-nav"><li><a class="flex-prev" href="#"></a></li><li><a class="flex-next" href="#"></a></li></ul></div>
+
+	</section>
+	<!-- /HOME -->
+
+
+
+	<!-- WRAPPER -->
+	<div class="wrapper">
+
+
+		<section id="mainContent" class="module-small" style="min-height: 500px;">
+			<div class="container">
+				<div class="row">
+                        <div class="col-sm-12">
+<br>
+                            Selam Kullanıcı ...<br>
+<br>
+Ben MRsuffix .<br>
+<br>
+Sana Burada Minecraft Modlu Sezon 1 Vs. Birçok Şey Vereceğim.<br>
+Tadını Çıkar.<br>
+:)
+<div id="gtx-trans" style="position: absolute; left: 22px; top: 110.667px;">
+<div class="gtx-trans-icon">&nbsp;</div>
+</div><br><br><br><hr>			<br><b>Bu sayfa hakkında yorum ekle:</b><br>
+			<center>
+				<form action="Ana-Sayfa.htm#comment" method="POST">
+					<table>
+						<tbody><tr style="text-align:left;"><td>İsmin:</td><td><input value="" type="text" name="modulenter[name]" style="width: 150px; "></td></tr><tr style="text-align:left;"><td>Mesajınız:</td><td><textarea id="kommentartext" name="modulenter[text]" rows="6" style="width: 250px;  height:100px;"></textarea></td></tr>
+					</tbody></table>
+					
+<script type="text/javascript">
+function insert_smilie (code) {
+	document.getElementById('kommentartext').value += ' ' + code;
+	document.getElementById('kommentartext').focus();
+}
+</script><a href="#" class="InsertSmilie" onclick="insert_smilie(';)'); blur(this); return false;"><img src="//theme.webme.com/smiles/wink.gif" border="0"></a><a href="#" class="InsertSmilie" onclick="insert_smilie(':)'); blur(this); return false;"><img src="//theme.webme.com/smiles/smiley.gif" border="0"></a><a href="#" class="InsertSmilie" onclick="insert_smilie(':D'); blur(this); return false;"><img src="//theme.webme.com/smiles/cheesy.gif" border="0"></a><a href="#" class="InsertSmilie" onclick="insert_smilie('>:('); blur(this); return false;"><img src="//theme.webme.com/smiles/angry.gif" border="0"></a><a href="#" class="InsertSmilie" onclick="insert_smilie(':('); blur(this); return false;"><img src="//theme.webme.com/smiles/sad.gif" border="0"></a><a href="#" class="InsertSmilie" onclick="insert_smilie(':o'); blur(this); return false;"><img src="//theme.webme.com/smiles/shocked.gif" border="0"></a><a href="#" class="InsertSmilie" onclick="insert_smilie('8)'); blur(this); return false;"><img src="//theme.webme.com/smiles/cool.gif" border="0"></a><a href="#" class="InsertSmilie" onclick="insert_smilie('???'); blur(this); return false;"><img src="//theme.webme.com/smiles/huh.gif" border="0"></a><a href="#" class="InsertSmilie" onclick="insert_smilie(';-)'); blur(this); return false;"><img src="//theme.webme.com/smiles/rolleyes.gif" border="0"></a><a href="#" class="InsertSmilie" onclick="insert_smilie(':P'); blur(this); return false;"><img src="//theme.webme.com/smiles/tongue.gif" border="0"></a><a href="#" class="InsertSmilie" onclick="insert_smilie(':\'('); blur(this); return false;"><img src="//theme.webme.com/smiles/cry.gif" border="0"></a><br>
+					<input type="hidden" name="mode" value="addacomment_step1">
+					<input type="submit" value="Yorum ekle">
+				</form>
+			</center>                        </div>
+				</div>
+			</div>
+		</section>
+
+
+		<hr class="divider-w">
+
+		<!-- CONTACT -->
+		<section id="contactRowFooterContent" class="module-small" style="padding: 30px 0;">
+		
+			<div class="container">
+		
+				<div class="row">
+		
+					<!-- CONTENT BOX -->
+					<div class="col-sm-4">
+						<div class="content-box">
+							<div class="content-box-icon">
+<span class="fa fa-map-marker"></span>							</div>
+							<div class="content-box-title font-inc">
+							</div>
+						</div>
+					</div>
+					<!-- /CONTENT BOX -->
+		
+					<!-- CONTENT BOX -->
+					<div class="col-sm-4">
+						<div class="content-box">
+							<div class="content-box-icon">
+								<span class="fa fa-mobile"></span>
+							</div>
+							<div class="content-box-title font-inc">
+															</div>
+						</div>
+					</div>
+					<!-- /CONTENT BOX -->
+		
+					<!-- CONTENT BOX -->
+					<div class="col-sm-4">
+						<div class="content-box">
+							<div class="content-box-icon">
+								<a href="mailto:"><span class="fa fa-envelope-open-o"></span></a>
+							</div>
+							<div class="content-box-title font-inc">
+								<a href="mailto:"></a>
+							</div>
+						</div>
+					</div>
+					<!-- /CONTENT BOX -->
+		
+				</div>
+		
+			</div>
+		
+		</section>
+		<!-- /CONTACT -->
+		
+
+		<!-- FOOTER -->
+		<footer class="footer">
+		
+			<div class="container">
+		
+				<div class="row">
+					<div class="col-sm-12 text-center">
+<div id="fb-root"></div>
+<script async="" defer="" crossorigin="anonymous" src="https://connect.facebook.net/en_US/sdk.js#xfbml=1&amp;version=v11.0&amp;appId=339062219495910"></script>
+<div class="fb-like" data-href="http%3A%2F%2FMRsuffix.tr.gg" data-width="120" data-layout="button_count" data-action="like" data-size="small" data-share="false"></div><ul class="social-links clearfix hidden-xs"><li class="youtube"><a target="_blank" href="https://www.youtube.com/channel/UChYuGYTHWg9s2I-5E9jbCGQ"><i class="fa fa-youtube"></i></a></li></ul>						Bugün 1 ziyaretçi (51 klik) kişi burdaydı!					
+						<p class="copyright font-inc m-b-0">© 2022 <a href="/">MRsuffix</a></p>
+						
+						<script language="JavaScript">
+		function getBrowser() {
+			var ua, matched, browser;
+		
+			ua = navigator.userAgent;
+			ua = ua.toLowerCase();
+		
+			var match = /(chrome)[ \/]([\w.]+)/.exec( ua ) ||
+				/(webkit)[ \/]([\w.]+)/.exec( ua ) ||
+				/(opera)(?:.*version|)[ \/]([\w.]+)/.exec( ua ) ||
+				/(msie)[\s?]([\w.]+)/.exec( ua ) ||
+				/(trident)(?:.*? rv:([\w.]+)|)/.exec( ua ) ||
+		
+				ua.indexOf("compatible") < 0 && /(mozilla)(?:.*? rv:([\w.]+)|)/.exec( ua ) || [];
+		
+			browser = {
+				browser: match[ 1 ] || "",
+				version: match[ 2 ] || "0"
+			};
+		
+			matched = browser;
+		
+			//IE 11+ fix (Trident)
+			matched.browser = matched.browser == 'trident' ? 'msie' : matched.browser;
+			browser = {};
+		
+			if ( matched.browser ) {
+				browser[ matched.browser ] = true;
+				browser.version = matched.version;
+			}
+		
+			// Chrome is Webkit, but Webkit is also Safari.
+			if ( browser.chrome ) {
+				browser.webkit = true;
+			} else if ( browser.webkit ) {
+				browser.safari = true;
+			}
+			return browser;
+		}
+		
+		var browser = getBrowser();
+		var contentType = '';
+		
+		var tagsToWrite = Array();
+		tagsToWrite['bgsound'] =  '<bgsound src="https:\/\/www.youtube.com\/watch?v=4izg9Spbbkk" loop=infinite>';
+		tagsToWrite['audio'] =  '<audio src="https:\/\/www.youtube.com\/watch?v=4izg9Spbbkk" loop="loop" autoplay="autoplay"></audio>';
+		tagsToWrite['embed'] =  '<EMBED src="https:\/\/www.youtube.com\/watch?v=4izg9Spbbkk" width="1" height="1" hidden="true" loop="true" autostart="true"></EMBED>';
+		
+		var tagKey = 'audio';
+		
+		if (contentType === 'ogg') {
+			if (browser.msie || browser.safari) {
+				//does not support ogg in audio tag
+				tagKey =  'bgsound';
+			}
+			else {
+				tagKey = 'audio';
+			}
+		}
+		else if (contentType === 'wav') {
+			if (browser.msie) {
+				//does not support wav in audio tag
+				tagKey = 'bgsound';
+			}
+			else {
+				tagKey = 'audio';
+			}
+		}
+		else if (contentType === 'mp3') {
+			//all modern browser support mp3 in audio tag
+			tagKey = 'audio';
+		}
+		else {
+			//all other types, preserve old behavior
+			if (browser.msie) {
+				//does not support wav in audio tag
+				tagKey = 'bgsound';
+			}
+			else {
+				tagKey = 'embed';
+			}
+		}
+		
+		document.write(tagsToWrite[tagKey]);
+		</script><embed src="https://www.youtube.com/watch?v=4izg9Spbbkk" width="1" height="1" hidden="true" loop="true" autostart="true">												<!--We want every page to be scrollable to the bottom and assume that 90px are usually enough-->
+<div style="height:90px">
+
+</div>
+
+<a id="selfpromotionOverlay" href="https://www.bedava-sitem.com/?c=4000&amp;utm_source=selfpromotion&amp;utm_campaign=overlay&amp;utm_medium=footer" target="_blank" rel="nofollow">
+    Bu web sitesi ücretsiz olarak <b>Bedava-Sitem.com</b> ile oluşturulmuştur. Siz de kendi web sitenizi kurmak ister misiniz?
+
+    <div class="btn btn-1">Ücretsiz kaydol</div>
+
+</a>
+<style>
+    /* General button style */
+    #selfpromotionOverlay .btn {
+        border: none;
+        font-size: inherit;
+        color: inherit;
+        background: none;
+        cursor: pointer;
+        padding: 6px 15px;
+        display: inline-block;
+        text-transform: uppercase;
+        letter-spacing: 1px;
+        font-weight: 700;
+        outline: none;
+        position: relative;
+        -webkit-transition: all 0.3s;
+        -moz-transition: all 0.3s;
+        transition: all 0.3s;
+        margin: 0px;
+    }
+
+    /* Button 1 */
+    #selfpromotionOverlay .btn-1, #selfpromotionOverlay .btn-1:visited {
+        background: rgb(0, 85, 204);
+        color: #fff;
+    }
+
+    #selfpromotionOverlay .btn-1:hover {
+        background: #2980b9;
+    }
+
+    #selfpromotionOverlay .btn-1:active {
+        background: #2980b9;
+        top: 2px;
+    }
+
+    #selfpromotionOverlay {
+        font: 400 12px/1.8 "Open Sans", Verdana, sans-serif;
+        text-align: center;
+        opacity: 1;
+        transition: opacity 1s ease;
+        position: fixed;
+        overflow: hidden;
+        box-sizing: border-box;
+        font-size: 14px;
+        text-decoration: none;
+        line-height: 1.5em;
+        flex-wrap: nowrap;
+        z-index: 5000;
+        padding: 14px;
+        width: 100%;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        color: rgb(35,35,35);
+        background-color: rgb(246,246,246);
+        border-top: 1px solid #5a5a5a;
+    }
+
+    #selfpromotionOverlay:hover {
+        background: white;
+        text-decoration: none;
+    }
+</style>						
+					</div>
+		
+				</div>
+		
+			</div>
+		
+		</footer>
+		<!-- /FOOTER -->
+
+	</div>
+	<!-- /WRAPPER -->
+	<!-- Scroll-up -->
+	<div class="scroll-up">
+		<a href="#totop"><i class="fa fa-angle-double-up"></i></a>
+	</div>
+	
+	<!-- Javascript files -->
+	<script src="//theme.webme.com/designs/semantic/assets/js/jquery.flexslider-min.js"></script>
+	<script src="//theme.webme.com/designs/semantic/assets/js/custom.js"></script>
+
+
+
+</body></html>
